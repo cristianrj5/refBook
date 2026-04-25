@@ -1,0 +1,22 @@
+classDiagram
+ class Users {
+    +int idUser
+    +string name
+    +string email
+    +string password_hash
+    +date createAt
+}
+
+class Favorites {
+    +int  idFavorite
+    +int idUser 
+    +string tipo
+    +string titulo
+    +string url
+    +string description
+    +string thumbnail_url
+    +date createAt
+
+}
+
+Users "1"--> "n" Favorites: tiene  
