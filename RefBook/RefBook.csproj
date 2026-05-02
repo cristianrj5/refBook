@@ -22,9 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\Services\" />
-    <Folder Include="Api\Controllers\" />
-    <Folder Include="Api\" />
     <Folder Include="Infrastructure\Repositories\" />
   </ItemGroup>
 
